@@ -1,0 +1,20 @@
+{
+  "name": "limitless-replic",
+  "version": "1.0.0",
+  "description": "Copy trading bot for Limitless Exchange - monitors and replicates wallet transactions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "simulate": "node src/simulator.js",
+    "backtest": "node src/simulator.js"
+  },
+  "keywords": ["limitless", "trading", "bot", "copy-trading"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0"
+  }
+}
